@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+   
+    <link rel="stylesheet" href="style.css">
+    
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+   <div class="top-Navigation">
+    <ul class="top-Icons">
+    
+      <li> <i class="fa fa-facebook" aria-hidden="true"></i></li>
+      <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+      <li><i class="fa fa-google-plus" aria-hidden="true"></i></li>
+    </ul>
+  </div>
+
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo"><img class="logo-img"src="assets\LOGO.png"></div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name"><img class="logo-name-img"src="assets\LOGO.png"></span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">PROPERTIES</a></li>
+          <li><a href="#">RENT</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">CONTACT</a></li>
+          <li><button class="btn btn-light ms-3"><i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp;<span>LOGIN</span></button></li>
+       </ul>
+      </div>
+    </div>
+  </nav>
+<!-- end-nav -section -->
+<!-- main-body section -->
+ <div class="main">
+    <div class="slide-show">
+      <div class="slide-content">
+      <h2 class="slide-content-Heading">LET US HELP YOU FIND<BR><span style="color:#23ffde">YOUR DREAM</span> HOME</h2>
+         <!-- <img class="silde-Img" src="assets/tierra-mallorca-NpTbVOkkom8-unsplash.jpg">
+           -->
+     </div>
+     <div class="content-box">
+       <h1>SDFnj</h1>
+       <h1>SDFnj</h1>
+       <h1>SDFnj</h1>
+      
+     </div>
+    </div>
+ </div>
+
+
+
+
+
+
+
+
+<script>
+
+  // sidebar open close js code
+  let navLinks = document.querySelector(".nav-links");
+  let menuOpenBtn = document.querySelector(".navbar .bx-menu");
+  let menuCloseBtn = document.querySelector(".nav-links .bx-x");
+  menuOpenBtn.onclick = function() {
+  navLinks.style.left = "0";
+  }
+  menuCloseBtn.onclick = function() {
+  navLinks.style.left = "-100%";
+  }
+</script>
+</body>
+</html>
